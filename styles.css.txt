@@ -1,0 +1,40 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.birthday-card {
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.icon-area {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.bg-1 { background-color: #ffeaa7; }
+.bg-2 { background-color: #fab1a0; }
+.bg-3 { background-color: #74b9ff; }
+.bg-4 { background-color: #a29bfe; }
+.bg-5 { background-color: #55efc4; }
+
+.text-dark {
+  color: #2d3436 !important;
+}
+
+.bg-animated {
+  background: linear-gradient(-45deg, #6a11cb, #2575fc, #6a11cb, #2575fc);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
